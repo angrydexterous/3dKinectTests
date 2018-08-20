@@ -3,7 +3,7 @@
 
 
 #include <fiblib/fiblib_api.h>
-
+#include <stdint.h>
 
 namespace fiblib
 {
@@ -38,7 +38,7 @@ public:
     *  @return
     *    Value of the i'th fibonacci number
     */
-    unsigned int operator()(unsigned int i);
+    uint64_t operator()(uint64_t n);
 };
 
 
