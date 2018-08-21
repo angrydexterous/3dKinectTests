@@ -3,6 +3,8 @@ Base project : https://github.com/cginternals/cmake-init
 
 ## Usage
 * Recommend using cmake-curses-gui to configure build options
+** Enable Examples
+** Change compile to debug mode
 
 ### Deps
 * QT5
