@@ -18,5 +18,6 @@ TEST_F(fibonacci_test, CheckSomeResults)
     EXPECT_EQ((uint64_t) 1, fib(1));
     EXPECT_EQ((uint64_t) 1, fib(2));
     EXPECT_EQ((uint64_t)21, fib(8));
+    EXPECT_EQ((uint64_t)4660046610375530309, fib(91));
     // ...
 }
