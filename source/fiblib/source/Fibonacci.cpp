@@ -14,15 +14,15 @@ namespace fiblib
      {
      }
 
-     uint64_t Fibonacci::operator()(uint64_t n)
+     uint64_t Fibonacci::operator()(uint64_t i)
      {
           uint64_t a = 0;
           uint64_t b = 1;
 
-          if (n == 0) {
+          if (i == 0) {
                b = 0;
           } else {
-               while (n-- > 1) {
+               while (i-- > 1) {
                     auto t = a;
                     a = b;
                     b += t;

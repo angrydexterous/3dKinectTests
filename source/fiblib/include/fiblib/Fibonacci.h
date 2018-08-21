@@ -38,7 +38,7 @@ public:
     *  @return
     *    Value of the i'th fibonacci number
     */
-    uint64_t operator()(uint64_t n);
+    uint64_t operator()(uint64_t i);
 };
 
 
