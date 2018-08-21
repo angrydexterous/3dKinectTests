@@ -11,8 +11,8 @@ Base project : https://github.com/cginternals/cmake-init
 ## Emacs
 ### Config
 * Using Spacemacs
-* [Setup Reference] (https://www.youtube.com/watch?v=OjbkCEkboA8)
-* Config File 
+* [Setup Reference](https://www.youtube.com/watch?v=OjbkCEkboA8)
+* [Sample Config File](https://github.com/angrydexterous/home) 
 ### Setup Pre-Coding
 * mkdir build && cd build
 * cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
